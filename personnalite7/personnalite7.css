@@ -1,0 +1,63 @@
+
+body
+{
+	background-image:url('Fond.jpg');
+	background-size: 100%;
+    color:white;
+    background-color:gray;
+	
+}
+
+img 
+{ 
+display: block; 
+margin: 0 auto;
+width : 250px;
+
+}
+
+p
+{
+    text-align: center;
+	font-family: math;
+}
+h1
+{
+    text-align: center;
+	
+}
+
+h1, h2, h3
+{
+	font-family: arianne;
+	font-size: 25px;
+	font-style: italic;
+	color : black;
+	
+}
+h6
+{
+	text-align : center;
+	width : 200;
+}
+h4
+{
+	font-family : arianne;
+	font-size: 25px;
+	color : black;
+	font-weight: bolder;
+	
+}
+h5
+{
+	font-family : arianne;
+	font-size: 20px;
+	color : black;
+	
+}
+
+h7
+{
+	text-align : center;
+	
+}

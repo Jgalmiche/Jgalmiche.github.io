@@ -1,0 +1,65 @@
+body{ background-image: url("images/fond ada.jpg");
+background-size: 1900px 1400px;}
+
+#p1
+{
+    text-align: justify;
+	font-family: script;
+    color: white;
+	position: absolute;
+  font-size:19px;
+  width:700px;
+  height:700px;
+  top: 170px;
+left: 50px;
+}
+
+h1
+{
+    text-align: center;
+	font-family: helvetica;
+    
+}
+
+.Ada {
+    position: absolute;
+top: 150px;
+left: 900px;
+}
+
+#p2
+{
+    text-align: justify;
+	font-family: script;
+    color: white;
+	position: absolute;
+  font-size:19px;
+  width:700px;
+  height:700px;
+  top: 500px;
+left: 50px;
+}
+#p3
+{
+    text-align: justify;
+	font-family: script;
+    color: white;
+	position: absolute;
+  font-size:19px;
+  width:700px;
+  height:700px;
+  top: 1000px;
+left: 50px;
+}
+h2
+{
+    text-align: justify;
+	font-family: helvetica;
+    color: white;
+	position: absolute;
+  font-size:25px;
+  width:700px;
+  height:700px;
+  top: 100px;
+left: 50px;
+}

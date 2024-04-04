@@ -1,0 +1,26 @@
+*
+{
+    font-family: Computer Modern Serif;
+}
+
+body
+{
+    color:black;
+    background-color : darkorange; 
+}
+
+img 
+{ 
+display: block; 
+margin: 0 auto;
+}
+
+p
+{
+    text-align: justify;
+}
+
+h1
+{
+    text-align: center;
+}
