@@ -1,0 +1,23 @@
+img
+{ 
+margin: 0 auto;
+}
+body
+{
+    color: black ;
+	background-color:#ebded8;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+}
+.element {
+ border:3px double black;
+ }
+
+h2{
+ text-align:center;
+ }
+.descriptif{
+ text-align:left;
+ }
