@@ -1,0 +1,46 @@
+*
+{
+    font-family: verdana;
+}
+
+body
+{
+    color:black;
+    background-color: #886d55;
+	margin-left: 50px;
+}
+
+img 
+{ 
+display: block; 
+margin: 0 auto;
+}
+
+p
+{
+    text-align: justify;
+    font-family: arial;
+}
+
+h1
+{
+    text-align: center;
+	color: black;
+}
+h3
+{text-decoration: underline dotted red;}
+
+#abracadabra {
+	margin-left: -1200px;
+}
+#corps {
+	margin-top: 50px;
+	margin-left: 100px;
+	width: 1400px;
+	height: 800px;
+}
+#couleurcorps{
+	background-image: url("fond.png");
+
+	background-size: 100%;
+}

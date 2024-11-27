@@ -1,0 +1,27 @@
+*
+{
+    font-family: Arial;
+}
+
+body
+{
+    color:black;
+    background-color:lightgrey;
+}
+
+img 
+{ 
+display: block; 
+margin: 0 auto;
+}
+
+p
+{
+    text-align: justify;
+    font-family: Gotham;
+}
+
+h1
+{
+    text-align: center;
+}

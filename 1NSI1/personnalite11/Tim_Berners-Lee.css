@@ -1,0 +1,26 @@
+*
+{
+    font-family: verdana;
+}
+
+body
+{
+    color:white;
+    background-color:grey;
+}
+
+img 
+{ 
+display: block; 
+margin: 0 auto;
+}
+
+p
+{
+    text-align: justify;
+}
+
+h1
+{
+    text-align: center;
+}

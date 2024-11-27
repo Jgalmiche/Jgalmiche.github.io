@@ -1,0 +1,27 @@
+*
+{
+    font-family:monospace;
+}
+
+body
+{
+    color:black;
+    background-color:#4B8C7A   ;
+}
+
+img 
+{ 
+display: block; 
+margin: 0 auto;
+}
+
+p
+{
+    text-align: justify;
+    font-family:cursive;
+}
+
+h1
+{
+    text-align: center;
+}
