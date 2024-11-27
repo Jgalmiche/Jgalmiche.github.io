@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<link rel="stylesheet" href="rsa.css" />
+		<meta name="author" content="Thomas LENNE">
+        <title>ESA</title>
+    </head>
+ 
+    <body>
+     <h1> Chiffrement RSA</h1>
+		 <P>Le chiffrement RSA  est un algorithme de cryptographie asymétrique, très utilisé dans le commerce électronique, et plus généralement pour échanger des données confidentielles sur Internet. Cet algorithme a été décrit en 1977 par Ronald Rivest, Adi Shamir et Leonard Adleman. RSA a été breveté1 par le Massachusetts Institute of Technology (MIT) en 1983 aux États-Unis. Le brevet a expiré le 21 septembre 2000.</p>
+	 <h2>Rivest-Shamir-Adleman</h2>
+	 <h3>L'invention du RSA, focntionnement général</h3>
+	     <p>Le chiffrement RSA est asymétrique : il utilise une paire de clés composée d'une clé publique pour chiffrer et d'une clé privée pour déchiffrer des données confidentielles. Les deux clés sont créées par une personne, souvent nommée par convention Alice, qui souhaite que lui soient envoyées des données confidentielles. Alice rend la clé publique accessible. Cette clé est utilisée par ses correspondants pour chiffrer les données qui lui sont envoyées. La clé privée est quant à elle réservée à Alice, et lui permet de déchiffrer ces données. La clé privée peut aussi être utilisée par Alice pour signer une donnée qu'elle envoie, la clé publique permettant à n'importe lequel de ses correspondants de vérifier la signature.
+
+Une condition indispensable est qu'il soit « calculatoirement impossible » de déchiffrer à l'aide de la seule clé publique, en particulier de reconstituer la clé privée à partir de la clé publique, c'est-à-dire que les moyens de calcul disponibles et les méthodes connues au moment de l'échange ne le permettent pas.
+
+Le chiffrement RSA est souvent utilisé pour communiquer une clé de chiffrement symétrique, qui permet alors de poursuivre l'échange de façon confidentielle : Bob envoie à Alice une clé de chiffrement symétrique qui peut ensuite être utilisée par Alice et Bob pour échanger des données..</p>
+	 <h3> Fonctionnement détaillé</h3>
+	 
+	     <p>Ronald Rivest, Adi Shamir et Leonard Adleman ont publié leur chiffrement en 1978 dans A Method for Obtaining Digital Signatures and Public-key Cryptosystems. Ils utilisent les congruences sur les entiers et le petit théorème de Fermat, pour obtenir des fonctions à trappe.
+
+Tous les calculs se font modulo un nombre entier n qui est le produit de deux nombres premiers. Le petit théorème de Fermat joue un rôle important dans la conception du chiffrement.
+
+Les messages clairs et chiffrés sont des entiers inférieurs à l'entier n servant de base au chiffrement2. Les opérations de chiffrement et de déchiffrement consistent à élever le message à une certaine puissance modulo n.
+
+La seule description des principes mathématiques sur lesquels repose l'algorithme RSA n'est pas suffisante. Sa mise en œuvre concrète demande de tenir compte d'autres questions qui sont essentielles pour la sécurité. Par exemple le couple doit être engendré par un procédé vraiment aléatoire qui, même s'il est connu, ne permet pas de reconstituer la clé privée. Les données chiffrées ne doivent pas être trop courtes, pour que le déchiffrement demande vraiment un calcul modulaire, et complétées de façon convenable.</p>
+	 <h3>En savoir plus:</h3>
+	 <ul>
+	 	 <li><a href="https://fr.wikipedia.org/wiki/Chiffrement_RSA"> La page Wikipédia sur le RSA </a></li>
+		 <li><a href="https://fr.wikipedia.org/wiki/Ronald_Rivest"> Le site wikipedia sur Ronad Rivest </a></li>
+		 <li><a href="https://fr.wikipedia.org/wiki/Adi_Shamir"> Le site wikipedia sur Adi Shamir</a></li>
+		 <li><a href="https://fr.wikipedia.org/wiki/Leonard_Adleman"> Le site wikipedia sur Leonard Adleman</a></li>
+	 </ul>
+
+    </body>
+</html>

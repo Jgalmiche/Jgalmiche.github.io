@@ -1,0 +1,27 @@
+*
+{
+    font-family: arial;
+}
+
+body
+{
+    color:white;
+    background-color:black;
+}
+
+img 
+{ 
+display: block; 
+margin: 0 auto;
+}
+
+p
+{
+    font-family: arial;
+    text-align: justify;
+}
+
+h1
+{
+    text-align: center;
+}
