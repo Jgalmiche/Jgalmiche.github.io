@@ -1,0 +1,124 @@
+/* Style global avec effet de dégradé */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #00d4ff;
+    text-shadow: 0 0 15px #00d4ff, 0 0 30px #00d4ff, 0 0 45px #00d4ff;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+/* Image de Profil avec effet lumineux */
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #00d4ff, 0 0 30px rgba(0, 212, 255, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.profile-pic img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px #00ffd5, 0 0 45px rgba(0, 255, 213, 0.7);
+}
+
+/* Section de contenu */
+.bio, .links, .downloads {
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.bio:hover, .links:hover, .downloads:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(0, 255, 255, 0.5);
+}
+
+.bio h2, .links h2, .downloads h2 {
+    font-size: 1.8rem;
+    color: #00ffd5;
+    text-shadow: 0 0 10px #00ffd5;
+    margin-bottom: 10px;
+}
+
+.bio p, .links ul, .downloads p {
+    font-size: 1rem;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+/* Liste de liens */
+.links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links ul li a {
+    color: #00ffd5;
+    text-decoration: none;
+}
+
+.links ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+/* Animation et Effets */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .bio, .links, .downloads {
+        padding: 15px;
+    }
+}
