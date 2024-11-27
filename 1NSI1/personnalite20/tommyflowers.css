@@ -1,0 +1,27 @@
+*
+{
+    font-family: verdana;
+}
+
+body
+{
+    color:purple;
+    background-color:lightpink
+	;
+}
+
+img 
+{ 
+display: block; 
+margin: 0 auto;
+}
+
+p
+{
+    text-align: justify;
+}
+
+h1
+{
+    text-align: center;
+}

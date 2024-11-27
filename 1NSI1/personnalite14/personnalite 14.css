@@ -1,0 +1,70 @@
+body {
+    color: black;
+    background-image: url("kk.jpg");
+    background-size: 100%;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    color: black;
+    font-family: "Courier New", monospace;
+    text-align: justify;
+    margin-right: 100px;
+}
+
+h1 {
+    transform: translateY(-10px);
+    background-image: url("jaune.jpg");
+    background-size: 50%;
+    height: 120px;
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 1400px;
+}
+
+h1 a {
+    text-decoration: none; 
+    color: black; 
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative; 
+}
+
+
+h1 br {
+    display: none; 
+}
+
+#corpsdetexte {
+    margin-left: 80px;
+    margin-right: 1000px;
+    width: 1525px;
+    margin-top: 0px;
+    background-image: url("jaune.jpg");
+    background-size: 100%;
+    height: 800px;
+}
+
+h2, h3 {
+    font-family: "Oswald", sans-serif;
+}
+
+#corpsdetexte {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    background-image: url("jaune.jpg");
+    background-size: 100%;
+    height: 800px;
+}

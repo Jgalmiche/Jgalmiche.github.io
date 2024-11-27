@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- En-tête de la page-->
+<meta name="author" 
+content="gelatine">
+<meta charset="utf-8" />
+<title>.INDEX</title>
+<link rel="stylesheet" href="ivan sutherland.css">
+</head>
+<body>
+<!-- Corps de la page -->
+<h1>.INDEX</h1>
+<h2>images utilisés:</h2>
+<a href="193289_web.jpg">Ivan sutherland</a><br>
+<a href="an-Sutherland-et-la-console-Sketchpad-1962.png">ivan sutherland sur une console</a><br>
+<a href="The-Sword-of-Damocles.png">sword of damocles</a>
+<h2>liens complémentaires:</h2>
+<a href="https://www.mit.edu/education/">MIT</a><br>
+<a href="https://www.cmu.edu">CMU</a><br>
+<a href="https://www.caltech.edu/about">Caltech</a><br>
+<a href="https://etudestech.com/decryptage/histoire-prix-turing-informatique/">Le prix Turing</a><br>
+<a href="https://www.techno-science.net/glossaire-definition/Medaille-John-von-Neumann.html">La médaille John von Neumann</a><br>
+<a href="https://www.frontiersofknowledgeawards-fbbva.es">BBVA FOK award</a><br>
+<a href="https://youtu.be/vPsFPmgT0YM?si=blMVYtC1flTjjvxv">Vidéo pour en savoir plus</a>
+<h3>par Eglantine kong ▽･ｪ･▽ﾉ”</h3>
+</body>
+</html>

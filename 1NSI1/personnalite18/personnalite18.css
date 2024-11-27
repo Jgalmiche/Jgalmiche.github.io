@@ -1,0 +1,27 @@
+body
+{
+    color:black;
+    background-color:rgba(0, 47, 255, 0.471);
+    font-family: 'Times New Roman';
+}
+
+p
+{
+    text-align: left;
+    font-family: 'Times New Roman';
+}
+
+h1
+{
+    text-align: center;
+}
+
+h2
+{
+    text-align: center;
+}
+
+h3
+{
+    text-align: center;
+}

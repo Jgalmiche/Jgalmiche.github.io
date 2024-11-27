@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- En-tête de la page-->
+<title>personalite15.html</title>
+<style type="text/css" id="operaUserStyle"></style>
+<head>
+<body>
+<h1>Ivan sutherland le père du sketchpad et bien encore</h1>
+<img src="193289_web.jpg"
+width="30%" alt="une photo deIvan sutherland">
+<!-- entete de la page-->
+<link rel="stylesheet"/>
+<meta name="author" 
+<link rel="stylesheet" href="ivan sutherland.css">
+<content="gelatine">
+<meta charset="utf-8" />
+<title>personnalite15.html</title>
+</head>
+<body>
+<!-- corp de la page-->
+<body>
+<h2>Biographie</h2>
+<p>Né le 16 mai 1938 à Hastings, dans le Nebraska, il est un informaticien américain. Il a suivi plusieurs formations et études, notamment à :</p>
+
+ <p><a href="https://www.mit.edu/education/">.l'Institut de technologie du Massachusetts</a><img src="181838.png" width="1%" alt="icon"></p>
+ <p><a href="https://www.cmu.edu">.l'Université Carnegie-Mellon</a><img src="181838.png" width="1%" alt="icon"></p>
+ <p><a href="https://www.caltech.edu/about">.le California Institute of Technology ou Caltech</a><img src="181838.png" width="1%" alt="icon"></p>
+Il est plus tard devenu professeur.
+On le surnomme le père de l'infographie, car il a inventé le premier système de manipulation graphique, le Sketchpad.
+Cela lui vaut l'honneur de recevoir le prix Turing en 1988. (cf.prix)</p>
+<style type="ivan sutherland.css" id="operaUserStyle"></style>
+<h3>Grandes inventions</h3>
+<p>Le 7 Juin 1963, Ivan Sutherland présente le Sketchpad en soumettant sa
+thèse de doctorat au MIT. Le Sketchpad, l'un des premiers 
+programmes pour <a href="https://fr.wikipedia.org/wiki/TX-0">le TX-0</a>, permettait la manipulation directe d'objets 
+sur un écran d'ordinateur. Grâce au Sketchpad, un utilisateur pouvait 
+créer et manipuler des figures graphiques avec un stylet lumineux. 
+Cette thèse a révolutionné les bases des interfaces graphiques modernes, telles que les fenêtres et icônes utilisées aujourd'hui.Cette
+invention est considérée
+comme l'une des fondatrices de l'informatique</p>
+<img src="an-Sutherland-et-la-console-Sketchpad-1962.png"
+width="20%" alt="ivan sutherland sketchpad">
+<p>Il y a près de soixante ans, à une époque où les ordinateurs occupaient une pièce entière, Sutherland a non seulement inventé le premier système permettant une interaction graphique avec ces machines, mais il a également développé le premier casque de réalité virtuelle</p>
+<img src="The-Sword-of-Damocles.png"
+width="25%" alt="sword of damocles">
+<h3>Prix remportés au cours de sa vie</h3>
+<p><a href="https://etudestech.com/decryptage/histoire-prix-turing-informatique/">Reçoit le prix Turing pour l'invention de Sketchpad en 1988.</a><img src="181838.png" width="1%" alt="icon"></p>
+<p><a href="https://www.techno-science.net/glossaire-definition/Medaille-John-von-Neumann.html">Reçoit la médaille John von Neumann en 1988.</a><img src="181838.png" width="1%" alt="icon">(attribuée à une ou deux personnes pour des « accomplissements extraordinaires en sciences et technologies informatiques »).</p>
+<p>Reçoit le prix de Kyoto en 2012 pour son travail sur le développement des capacités graphiques des ordinateurs et des interactions homme-machine, avec son élève Robert Sproull,créé en 1968.</p>
+<p><a href="https://www.frontiersofknowledgeawards-fbbva.es">Le BBVA Foundation Frontiers of Knowledge Award.</a><img src="181838.png" width="1%" alt="icon"></p>
+<h3><a href="https://youtu.be/vPsFPmgT0YM">Pour en savoir plus</a><img src="181838.png" width="1%" alt="icon"></h3>
+<h3><a href="personalite15.html.pdf">Document en format pdf</a><img src="181838.png" width="1%" alt="icon"></h3>
+<a href="index.html">.index</a><img src="181838.png" width="1%" alt="icon">
+</body>
+</html>

@@ -1,0 +1,38 @@
+*
+{
+    font-family: geogia;
+    color: black;
+}
+
+body
+{
+    color:black;
+    background-color:rgb(236, 223, 240);
+}
+
+img 
+{ 
+display: block; 
+margin: 0 auto;
+height: 250 px;;
+width: auto;
+}
+
+p
+{
+    text-align:left;
+	font-family: TeX Gyre Schola;
+}
+
+h1
+{ 
+   font-size: 50px;
+   text-align: center;
+   font-family: serif; 
+}
+
+h2
+{
+    text-align: center;
+    font-size: 35px;
+}

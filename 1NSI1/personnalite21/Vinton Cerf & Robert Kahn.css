@@ -1,0 +1,29 @@
+*
+{
+    font-family: Lobster;
+}
+
+body
+{
+    color:A6450;
+    background-color:lightblue;
+}
+
+img 
+{ 
+display: block; 
+margin: 0 auto;
+}
+
+p
+{
+    
+    text-align: justify;
+    color:brown;
+    font-family: liberation serif;
+}
+
+h1
+{
+    text-align: center;
+}

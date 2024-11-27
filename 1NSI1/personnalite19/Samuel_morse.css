@@ -1,0 +1,32 @@
+
+body
+{
+    color:whrite;
+    background-image: url("e.jpeg");
+	background-size: 100%;
+}
+
+img 
+{ 
+display: block; 
+margin: 0 auto;
+}
+
+p
+{
+    text-align: justify;
+    font-family: Courier New, monospace;
+}
+
+h1
+{
+	background-image: url("fondk.jpg");
+background-size: 100%;
+color: white;
+font-family: "Agdasima", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+    text-align: center;
+
+}
