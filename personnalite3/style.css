@@ -1,0 +1,104 @@
+/* Styles de base (inchangés) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #00d4ff;
+    text-shadow: 0 0 15px #00d4ff, 0 0 30px #00d4ff, 0 0 45px #00d4ff;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+/* Style de la frise chronologique */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 800px;
+}
+
+.timeline-item {
+    position: relative;
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    text-align: left;
+}
+
+.timeline-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(0, 255, 255, 0.5);
+}
+
+.timeline-item .year {
+    position: absolute;
+    top: 10px;
+    left: -60px;
+    font-size: 1.5rem;
+    color: #00ffd5;
+    text-shadow: 0 0 10px #00ffd5;
+}
+
+.timeline-item .content h2 {
+    color: #00ffd5;
+    text-shadow: 0 0 10px #00ffd5;
+    margin-bottom: 10px;
+}
+
+.timeline-item .content h2 a {
+    color: #00ffd5;
+    text-decoration: none;
+}
+
+.timeline-item .content h2 a:hover {
+    text-decoration: underline;
+}
+
+.timeline-item .content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+/* Animation et Effets */
+@keyframes fadeIn {
+    from { opacity: 0; }
