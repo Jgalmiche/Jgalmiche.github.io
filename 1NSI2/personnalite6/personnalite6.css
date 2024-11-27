@@ -1,0 +1,41 @@
+*
+{
+    font-family: Segoe UI;
+}
+
+body
+{
+    color:white;
+    background-color:#996633;
+}
+
+img 
+{ 
+display: block; 
+margin: 0 auto;
+}
+
+p
+{
+    text-align: justify;
+	font-family: Segoe UI;
+}
+
+h1
+{
+    text-align: center;
+}
+
+h2
+{
+	text-align: center;
+	text-decoration: underline;
+	font-style: italic;
+	font-family: Sitka Heading
+}
+
+h3
+{
+	text-decoration: underline;
+	font-family: Sitka Heading;
+}
