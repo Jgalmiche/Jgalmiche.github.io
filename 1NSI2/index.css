@@ -1,0 +1,29 @@
+img
+{ 
+margin: 0 auto;
+
+}
+body
+{
+    color: black ;
+	background-color:#ffffff;
+}
+.container {
+
+    display: flex;
+    flex-wrap: wrap; 
+
+}
+.element {
+ border:3px double black;
+ margin:auto;
+ text-align:center;
+ background-color:#ebded8;
+ }
+
+h2{
+ text-align:center;
+ }
+.descriptif{
+ text-align:left;
+ }
