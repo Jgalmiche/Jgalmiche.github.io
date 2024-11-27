@@ -1,7 +1,6 @@
 img
 { 
 margin: 0 auto;
-
 }
 body
 {
@@ -9,16 +8,11 @@ body
 	background-color:#ffffff;
 }
 .container {
-
     display: flex;
     flex-wrap: wrap; 
-
 }
 .element {
  border:3px double black;
- margin:auto;
- text-align:center;
- background-color:#ebded8;
  }
 
 h2{
@@ -27,3 +21,5 @@ h2{
 .descriptif{
  text-align:left;
  }
+ 
+footer {position: absolute; bottom: 0; }
