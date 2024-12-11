@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panorama des réseaux sociaux</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #005a8d;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            color: #005a8d;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 40px;
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .social-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .social-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 150px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .social-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .social-card img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #005a8d;
+            font-weight: bold;
+            display: block;
+        }
+        .social-card a:hover {
+            color: #007BFF;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .social-card {
+                width: 100px;
+                padding: 10px;
+            }
+            .social-card img {
+                width: 40px;
+                height: 40px;
+            }
+            .social-card a {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Panorama des réseaux sociaux</h1>
+    <p>Pages web réalisées par les élèves de 2nde SNT1&amp;2 - janvier 2025</p>
+    <a href="../index.html" class="back-link">Retour à l'accueil</a>
+
+    <div class="social-links">
+    <a href="https://discord.com" target="_blank">
+        <div class="social-card">
+            
+                <img src="images/discord.png" alt="Discord">
+                <br>
+                Discord
+        </div>
+        </a>
+        <a href="https://facebook.com" target="_blank">
+        <div class="social-card">
+            
+                <img src="images/facebook.png" alt="Facebook">
+                <br>
+                Facebook
+            
+        </div>
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+        <div class="social-card">
+            
+                <img src="images/instagram.jpg" alt="Instagram">
+                <br>
+                Instagram
+            
+        </div>
+        </a>
+        <a href="https://www.pinterest.com" target="_blank">
+        <div class="social-card">
+            
+                <img src="images/pinterest.png" alt="Pinterest">
+                <br>
+                Pinterest
+            
+        </div>
+        </a>
+        <a href="https://www.snapchat.com" target="_blank">
+        <div class="social-card">
+            
+                <img src="images/snapchat.png" alt="Snapchat">
+                <br>
+                Snapchat
+            
+        </div>
+        </a>
+        <a href="https://www.tiktok.com" target="_blank">
+        <div class="social-card">
+            
+                <img src="images/tiktok.png" alt="TikTok">
+                <br>
+                TikTok
+            
+        </div>
+        </a>
+        <a href="https://twitter.com" target="_blank">
+        <div class="social-card">
+            
+                <img src="images/twitter.png" alt="Twitter">
+                <br>
+                Twitter
+            
+        </div>
+        </a>
+        <a href="https://www.youtube.com" target="_blank">
+        <div class="social-card">
+            
+                <img src="images/youtube.png" alt="YouTube">
+                <br>
+                YouTube
+            
+        </div>
+        </a>
+    </div>
+</body>
+</html>
