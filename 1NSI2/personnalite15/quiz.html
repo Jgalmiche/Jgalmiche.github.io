@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interactif</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Quiz Interactif</h1>
+        </header>
+        <main>
+            <section>
+                <h2>Connaissez-vous Ivan Sutherland ?</h2>
+                <form id="quiz-form">
+                    <p>
+                        <strong>Question 1 :</strong> En quelle année Ivan Sutherland a-t-il créé Sketchpad ?
+                        <br>
+                        <input type="radio" name="q1" value="1960" id="q1-1960">
+                        <label for="q1-1960">1960</label>
+                        <br>
+                        <input type="radio" name="q1" value="1963" id="q1-1963">
+                        <label for="q1-1963">1963</label>
+                        <br>
+                        <input type="radio" name="q1" value="1970" id="q1-1970">
+                        <label for="q1-1970">1970</label>
+                    </p>
+                    <p>
+                        <strong>Question 2 :</strong> Quel était le surnom du premier casque de réalité virtuelle ?
+                        <br>
+                        <input type="radio" name="q2" value="L'épée de Damoclès" id="q2-damocles">
+                        <label for="q2-damocles">L'épée de Damoclès</label>
+                        <br>
+                        <input type="radio" name="q2" value="Le casque magique" id="q2-magique">
+                        <label for="q2-magique">Le casque magique</label>
+                        <br>
+                        <input type="radio" name="q2" value="La boîte à rêves" id="q2-reves">
+                        <label for="q2-reves">La boîte à rêves</label>
+                    </p>
+                    <p>
+                        <strong>Question 3 :</strong> Quelle innovation est associée à Sketchpad ?
+                        <br>
+                        <input type="radio" name="q3" value="Les bases des interfaces graphiques" id="q3-gui">
+                        <label for="q3-gui">Les bases des interfaces graphiques</label>
+                        <br>
+                        <input type="radio" name="q3" value="Le premier jeu vidéo" id="q3-jeu">
+                        <label for="q3-jeu">Le premier jeu vidéo</label>
+                        <br>
+                        <input type="radio" name="q3" value="La création d'internet" id="q3-internet">
+                        <label for="q3-internet">La création d'internet</label>
+                    </p>
+                    <p>
+                        <strong>Question 4 :</strong> Quel est le principal domaine d'application de Sketchpad ?
+                        <br>
+                        <input type="radio" name="q4" value="Conception assistée par ordinateur (CAD)" id="q4-cad">
+                        <label for="q4-cad">Conception assistée par ordinateur (CAD)</label>
+                        <br>
+                        <input type="radio" name="q4" value="Simulation 3D" id="q4-3d">
+                        <label for="q4-3d">Simulation 3D</label>
+                        <br>
+                        <input type="radio" name="q4" value="Calculs scientifiques" id="q4-calculs">
+                        <label for="q4-calculs">Calculs scientifiques</label>
+                    </p>
+                    <p>
+                        <strong>Question 5 :</strong> Quelle est l'importance d'Ivan Sutherland dans l'informatique ?
+                        <br>
+                        <input type="radio" name="q5" value="Pionnier des technologies interactives" id="q5-pionnier">
+                        <label for="q5-pionnier">Pionnier des technologies interactives</label>
+                        <br>
+                        <input type="radio" name="q5" value="Inventeur des ordinateurs modernes" id="q5-ordinateur">
+                        <label for="q5-ordinateur">Inventeur des ordinateurs modernes</label>
+                        <br>
+                        <input type="radio" name="q5" value="Créateur des réseaux informatiques" id="q5-reseaux">
+                        <label for="q5-reseaux">Créateur des réseaux informatiques</label>
+                    </p>
+                    <button type="button" id="submit-quiz">Soumettre</button>
+                </form>
+                <div id="result" class="hidden">
+                    <h3>Votre score :</h3>
+                    <p id="score"></p>
+                    <a href="personnalite15.html" class="quiz-link">Retourner à la page principale</a>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script>
+        document.getElementById('submit-quiz').addEventListener('click', function () {
+            const answers = {
+                q1: "1963",
+                q2: "L'épée de Damoclès",
+                q3: "Les bases des interfaces graphiques",
+                q4: "Conception assistée par ordinateur (CAD)",
+                q5: "Pionnier des technologies interactives"
+            };
+            let score = 0;
+            const form = document.getElementById('quiz-form');
+            const result = document.getElementById('result');
+            const scoreDisplay = document.getElementById('score');
+            Object.keys(answers).forEach(key => {
+                const selected = form.querySelector(`input[name="${key}"]:checked`);
+                if (selected && selected.value === answers[key]) {
+                    score++;
+                }
+            });
+            form.style.display = 'none';
+            result.classList.remove('hidden');
+            scoreDisplay.textContent = `${score} / 5`;
+        });
+    </script>
+</body>
+</html>

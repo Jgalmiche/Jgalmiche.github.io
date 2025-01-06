@@ -26,4 +26,104 @@ La théorie de l’information de Shannon a montré que les limites ultimes de c
 	 </ul>
 	<h3><a href="Claude Shanon.pdf">Télécharger cette page au format .pdf</a></h4>
     </body>
+<html>
+ <!DOCTYPE html>
+<html lang="fr">
+<head>
+    
+    <title>Quizz Claude Shannon</title>
+</head>
+<body>
+    <h1>Quizz sur Claude Shannon</h1>
+
+    <form id="quizForm">
+        <p>1. Qui est Claude Shannon ?</p>
+        <input type="radio" name="Q1" value="Un mathématicien" id="Q1a">
+        <label for="Q1a">Un mathématicien</label><br>
+        <input type="radio" name="Q1" value="Un informaticien" id="Q1b">
+        <label for="Q1b">Un informaticien</label><br>
+        <input type="radio" name="Q1" value="Un ingénieur chimiste" id="Q1c">
+        <label for="Q1c">Un ingénieur chimiste</label><br>
+
+        <p>2. En quelle année Claude Shannon a-t-il publié son article fondateur sur la théorie de l'information ?</p>
+        <input type="radio" name="Q2" value="1938" id="Q2a">
+        <label for="Q2a">1938</label><br>
+        <input type="radio" name="Q2" value="1948" id="Q2b">
+        <label for="Q2b">1948</label><br>
+        <input type="radio" name="Q2" value="1950" id="Q2c">
+        <label for="Q2c">1950</label><br>
+
+        <p>3. Quel est le concept de base que Claude Shannon a introduit dans la théorie de l'information ?</p>
+        <input type="radio" name="Q3" value="Le byte" id="Q3a">
+        <label for="Q3a">Le byte</label><br>
+        <input type="radio" name="Q3" value="Le bit" id="Q3b">
+        <label for="Q3b">Le bit</label><br>
+        <input type="radio" name="Q3" value="Le kilobyte" id="Q3c">
+        <label for="Q3c">Le kilobyte</label><br>
+
+        <p>4. Dans quel domaine Claude Shannon a-t-il également fait des contributions importantes, en plus de la théorie de l'information ?</p>
+        <input type="radio" name="Q4" value="Cryptographie" id="Q4a">
+        <label for="Q4a">Cryptographie</label><br>
+        <input type="radio" name="Q4" value="Physique quantique" id="Q4b">
+        <label for="Q4b">Physique quantique</label><br>
+        <input type="radio" name="Q4" value="Biologie moléculaire" id="Q4c">
+        <label for="Q4c">Biologie moléculaire</label><br>
+
+        <input type="submit" value="Envoyer">
+    </form>
+
+    <div id="result" class="result"></div>
+
+    <script>
+        
+		
+        function checkAnswers(event) {
+            event.preventDefault();  // Empêcher la soumission du formulaire
+
+            let score = 0;
+            const totalQuestions = 4;
+
+            
+			
+            const correctAnswers = {
+                Q1: "Un informaticien",
+                Q2: "1948",
+                Q3: "Le bit",
+                Q4: "Cryptographie"
+            };
+
+            
+			
+            for (let question in correctAnswers) {
+                const selectedAnswer = document.querySelector(`input[name="${question}"]:checked`);
+                if (selectedAnswer && selectedAnswer.value === correctAnswers[question]) {
+                    score++;
+                }
+            }
+
+            
+			
+            const result = document.getElementById('result');
+            result.innerHTML = `Vous avez ${score} bonnes réponses sur ${totalQuestions}.`;
+
+            
+			
+            if (score === totalQuestions) {
+                result.innerHTML += " Félicitations, vous avez tout bon!";
+            } else if (score >= 2) {
+                result.innerHTML += " Bon travail, mais il y a encore quelques erreurs.";
+            } else {
+                result.innerHTML += " Il semble que vous ayez besoin de réviser un peu.";
+            }
+        }
+
+        
+		
+        document.getElementById('quizForm').addEventListener('submit', checkAnswers);
+    </script>
+
+
+</body>
 </html>
+
+        

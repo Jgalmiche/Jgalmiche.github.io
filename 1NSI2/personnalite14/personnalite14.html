@@ -21,6 +21,75 @@
         utilisée aujourd'hui dans les circuits logiques des ordinateurs et les systèmes numériques.</p>
     </section>
 
+    <section class="quizz">
+        <h2>Quiz sur George Boole</h2>
+        <form id="quizForm">
+            <p>
+                <strong>1. En quelle année George Boole a-t-il inventé l'algèbre booléenne ?</strong><br>
+                <input type="radio" name="Q1" value="1915-1920" id="Q1A1">
+                <label for="Q1A1">1915-1920</label><br>
+                <input type="radio" name="Q1" value="1806-1819" id="Q1A2">
+                <label for="Q1A2">1806-1819</label><br>
+                <input type="radio" name="Q1" value="1844-1854" id="Q1A3">
+                <label for="Q1A3">1844-1854</label>
+            </p>
+
+            <p>
+                <strong>2. Quelle était la profession principale de George Boole ?</strong><br>
+                <input type="radio" name="Q2" value="Écrivain" id="Q2A1">
+                <label for="Q2A1">Écrivain</label><br>
+                <input type="radio" name="Q2" value="Mathématicien" id="Q2A2">
+                <label for="Q2A2">Mathématicien</label><br>
+                <input type="radio" name="Q2" value="Explorateur" id="Q2A3">
+                <label for="Q2A3">Explorateur</label>
+            </p>
+
+            <p>
+                <strong>3. Quel est le titre de son ouvrage majeur ?</strong><br>
+                <input type="radio" name="Q3" value="Les Lois de la Pensée" id="Q3A1">
+                <label for="Q3A1">Les Lois de la Pensée</label><br>
+                <input type="radio" name="Q3" value="L'Origine des Espèces" id="Q3A2">
+                <label for="Q3A2">L'Origine des Espèces</label><br>
+                <input type="radio" name="Q3" value="Éléments de géométrie" id="Q3A3">
+                <label for="Q3A3">Éléments de géométrie</label>
+            </p>
+
+            <p>
+                <strong>4. À quoi sert l'algèbre booléenne aujourd'hui ?</strong><br>
+                <input type="radio" name="Q4" value="Circuits logiques et informatique" id="Q4A1">
+                <label for="Q4A1">Circuits logiques et informatique</label><br>
+                <input type="radio" name="Q4" value="Construction automobile" id="Q4A2">
+                <label for="Q4A2">Construction automobile</label><br>
+                <input type="radio" name="Q4" value="Mécanique quantique" id="Q4A3">
+                <label for="Q4A3">Mécanique quantique</label>
+            </p>
+            <button type="button" id="submitButton" onclick="checkAnswers()">Envoyer mes réponses</button>
+            <p id="result"></p>
+        </form>
+    </section>
+    <script>
+        function checkAnswers() {
+            const answers = {
+                Q1: "1844-1854",
+                Q2: "Mathématicien",
+                Q3: "Les Lois de la Pensée",
+                Q4: "Circuits logiques et informatique"
+            };
+
+            let score = 0;
+
+            for (let question in answers) {
+                const userAnswer = document.querySelector(`input[name="${question}"]:checked`);
+                if (userAnswer && userAnswer.value === answers[question]) {
+                    score++;
+                }
+            }
+
+            const resultElement = document.getElementById("result");
+            resultElement.textContent = `Votre score est de ${score}/4.`;
+        }
+    </script>
+   
     <section class="links">
         <h3>Liens utiles :</h3>
         <ul>
@@ -44,5 +113,3 @@
         }
     </script>
 </body>
-
-</html>
