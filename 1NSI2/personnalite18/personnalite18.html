@@ -8,7 +8,7 @@
     </head>
  
     <body>
-     <h1> Chiffrement RSA</h1>
+     <h1><a href="../index.html">Chiffrement RSA</a></h1>
 		 <P>Le chiffrement RSA  est un algorithme de cryptographie asymétrique, très utilisé dans le commerce électronique, et plus généralement pour échanger des données confidentielles sur Internet. Cet algorithme a été décrit en 1977 par Ronald Rivest, Adi Shamir et Leonard Adleman. RSA a été breveté1 par le Massachusetts Institute of Technology (MIT) en 1983 aux États-Unis. Le brevet a expiré le 21 septembre 2000.</p>
 	 <h2>Rivest-Shamir-Adleman</h2>
 	 <h3>L'invention du RSA, focntionnement général</h3>
@@ -25,7 +25,7 @@ Tous les calculs se font modulo un nombre entier n qui est le produit de deux no
 
 Les messages clairs et chiffrés sont des entiers inférieurs à l'entier n servant de base au chiffrement2. Les opérations de chiffrement et de déchiffrement consistent à élever le message à une certaine puissance modulo n.
 
-La seule description des principes mathématiques sur lesquels repose l'algorithme RSA n'est pas suffisante. Sa mise en œuvre concrète demande de tenir compte d'autres questions qui sont essentielles pour la sécurité. Par exemple le couple doit être engendré par un procédé vraiment aléatoire qui, même s'il est connu, ne permet pas de reconstituer la clé privée. Les données chiffrées ne doivent pas être trop courtes, pour que le déchiffrement demande vraiment un calcul modulaire, et complétées de façon convenable.</p>
+La seule description des principes mathématiques sur lesquels repose l'algorithme RSA n'est pas suffisante. Sa mise en œuvre concrète demande de tenir compte d'autres questions qui sont essentielles pour la sécurité. Par exemple le couple (clé privée, clé publique) doit être engendré par un procédé vraiment aléatoire qui, même s'il est connu, ne permet pas de reconstituer la clé privée. Les données chiffrées ne doivent pas être trop courtes, pour que le déchiffrement demande vraiment un calcul modulaire, et complétées de façon convenable (par exemple par l'Optimal Asymmetric Encryption Padding)..</p>
 	 <h3>En savoir plus:</h3>
 	 <ul>
 	 	 <li><a href="https://fr.wikipedia.org/wiki/Chiffrement_RSA"> La page Wikipédia sur le RSA </a></li>
@@ -33,6 +33,56 @@ La seule description des principes mathématiques sur lesquels repose l'algorith
 		 <li><a href="https://fr.wikipedia.org/wiki/Adi_Shamir"> Le site wikipedia sur Adi Shamir</a></li>
 		 <li><a href="https://fr.wikipedia.org/wiki/Leonard_Adleman"> Le site wikipedia sur Leonard Adleman</a></li>
 	 </ul>
+	 
+	 <html>
+ 
+ <h1>Quizz</h1>
+ 
+ <form >
+ Que veut dire RSA ?
+ <input type="radio" name="Q1" value="Rivest-Shamir-Adleman" id="Rivest-Shamir-Adleman">
+ <label for="Rivest-Shamir-Adleman">1- Rivest-Shamir-Adleman</label>
+ <input type="radio" name="Q1" value="Revenu de solidarité active" id="Revenu de solidarité active">
+ <label for="Revenu de solidarité active">2- Revenu de solidarité active </label>
+  <input type="radio" name="Q1" value="Oui" id="Oui">
+ <label for="Oui">3- Un modèle de voiture </label>
+ <input type ="submit" value ="Envoyer"> 
+ </form>
+
+<form >
+ Quand le chiffrement RSA à été brevét ?
+ <input type="radio" name="Q1" value="Rivest-Shamir-Adleman" id="Rivest-Shamir-Adleman">
+ <label for="Rivest-Shamir-Adleman">1- 2000</label>
+ <input type="radio" name="Q1" value="Revenu de solidarité active" id="Revenu de solidarité active">
+ <label for="Revenu de solidarité active">2- 1983 </label>
+  <input type="radio" name="Q1" value="Oui" id="Oui">
+ <label for="Oui">3- 1977 </label>
+ <input type ="submit" value ="Envoyer"> 
+ </form>
+ 
+ <form >
+ Dans l'algorithme RSA, quel est le rôle de la clé publique ?
+ <input type="radio" name="Q1" value="Rivest-Shamir-Adleman" id="Rivest-Shamir-Adleman">
+ <label for="Rivest-Shamir-Adleman">1- Décrypter les messages chiffrés.</label>
+ <input type="radio" name="Q1" value="Revenu de solidarité active" id="Revenu de solidarité active">
+ <label for="Revenu de solidarité active">2- Chiffrer les messages ou vérifier des signatures. </label>
+  <input type="radio" name="Q1" value="Oui" id="Oui">
+ <label for="Oui">3- Générer les nombres premiers utilisés dans les clés.
+ </label>
+ <input type ="submit" value ="Envoyer"> 
+ </form>
+ 
+ <form >
+Quelle est une propriété essentielle des nombres p et q dasn le RSA ?
+ <input type="radio" name="Q1" value="Rivest-Shamir-Adleman" id="Rivest-Shamir-Adleman">
+ <label for="Rivest-Shamir-Adleman">1- Ils doivent être des nombres premiers distincts.</label>
+ <input type="radio" name="Q1" value="Revenu de solidarité active" id="Revenu de solidarité active">
+ <label for="Revenu de solidarité active">2- Ils doivent être choisis parmi les nombres premiers les plus petits. </label>
+  <input type="radio" name="Q1" value="Oui" id="Oui">
+ <label for="Oui">3- Ils doivent être égaux pour simplifier les calculs. </label>
+ <input type ="submit" value ="Envoyer"> 
+ </form>
+
 
     </body>
 </html>
