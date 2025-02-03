@@ -1,0 +1,28 @@
+*
+{
+    font-family: LOBSTER;
+}
+
+body
+{
+    color:black;
+    background-image:url("instagramfond.png"); 
+	background-size:cover;
+}
+
+img 
+{ 
+display: block; 
+margin: 0 auto;
+}
+
+p
+{
+    text-align: justify;
+	font-family:arial;
+}
+
+h1
+{
+    text-align: center;
+}

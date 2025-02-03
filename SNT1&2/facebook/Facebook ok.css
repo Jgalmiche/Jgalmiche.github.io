@@ -1,0 +1,31 @@
+*
+{
+    font-family: Century Schoolbook L;
+}
+
+body
+{
+    color:#234759;
+    background-color:#d0eeec;
+}
+
+img 
+{ 
+ display: block;
+margin: 0 auto;
+ text-align: justify;
+}
+
+p
+{
+    text-align: justify;
+	font-family:Yu Gothic;
+
+
+}
+h3
+{
+     display: block;
+
+ 
+}

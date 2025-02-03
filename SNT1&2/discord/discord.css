@@ -1,0 +1,37 @@
+*
+{
+    font-family:caviar dreams ;
+	font-size:50px;
+}
+
+body
+{
+	
+    color:white;
+    background-color:#5865F2;
+}
+
+img 
+{ 
+display: block; 
+margin: 0 auto;
+}
+
+p
+{
+    text-align: justify;
+}
+
+h1
+{
+    text-align: center;
+}
+h2,h3
+{
+    font-family:lobster;
+}
+h1
+{
+	font-family:montserrat;
+	font-size:60px;
+}
