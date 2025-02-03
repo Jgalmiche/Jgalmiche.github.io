@@ -1,0 +1,34 @@
+{
+    font-family: arvo;
+}
+
+body
+{
+    color: #d85887;
+    background-color:white;
+}
+
+img 
+{ 
+display: block; 
+margin: 0 auto;
+}
+
+p
+{
+    text-align: justify;
+	font-family: Times New Roman;
+}
+
+h1
+{
+    text-align: center;
+}
+a
+{
+	color: #bc3869;
+}
+h2,h3
+{ 
+    color: #bc3869;
+}
