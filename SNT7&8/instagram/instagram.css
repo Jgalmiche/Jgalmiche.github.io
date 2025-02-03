@@ -1,0 +1,43 @@
+*
+{
+    font-family:calibri;
+}
+
+body
+{
+    color:#black;
+    background-color:white;
+
+img 
+{ 
+display: block; 
+margin: 7;
+}
+
+p
+{
+	font-family:Arvo;
+    text-align:left;
+}
+
+h1
+{ 
+    text-align: center;
+}
+a
+{
+	color:#black;	
+}
+h2
+{
+   text-align: left;
+}
+h3
+{
+    text-align: center;
+}
+h4
+{
+        font-family:Arvo;
+  text-align: left;
+}

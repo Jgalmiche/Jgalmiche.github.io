@@ -1,0 +1,28 @@
+*
+{
+    font-family: Amiri;
+
+}
+
+body
+{
+    color:white;
+	background-color:#a378e5
+}
+
+img 
+{ 
+display: block; 
+margin: 0 auto;
+}
+
+p
+{
+    text-align: justify;
+	font-family:Amiri;
+}
+
+h1
+{
+    text-align: center;
+}

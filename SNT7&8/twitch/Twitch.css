@@ -1,0 +1,33 @@
+*
+{
+    font-family: algerian;
+}
+
+body
+{
+    color:black;
+    background-color:#FFCCFF;
+}
+
+img 
+{ 
+display: block; 
+margin: 0 auto;
+}
+
+p
+{
+    text-align: justify;
+	font-family: Bahnschrift;
+}
+
+h1
+{
+    text-align: center;
+}
+a
+{
+	color:#9900FF;
+	
+	
+}
