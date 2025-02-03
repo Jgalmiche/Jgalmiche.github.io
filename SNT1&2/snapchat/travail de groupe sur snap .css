@@ -1,0 +1,28 @@
+*
+{
+    font-family:;arialblack
+}
+
+body
+{
+    color:#3f3131;
+    background-color:#ffffff;
+	title:#fff00;
+}
+
+img 
+{ 
+display: block; 
+margin: 0 auto;
+}
+
+p
+{
+    text-align: justify;
+	font-family: verdana; 
+}
+
+h1
+{
+    text-align: center;
+}
