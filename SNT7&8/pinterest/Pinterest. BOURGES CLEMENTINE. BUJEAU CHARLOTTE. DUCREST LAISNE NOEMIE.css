@@ -1,0 +1,30 @@
+*
+{
+    font-family: lobster;
+	text-align: center;
+
+}
+
+body
+{
+    color: #EA0124;
+    background-color:  white ;
+}
+
+img 
+{ 
+display: block; 
+margin: 0 auto;
+}
+
+p
+ {   font-family: arial;
+     font-weight: bold;
+	 color:black;
+    text-align: left;
+}
+
+a
+{
+	color: #F1A0AC
+}
