@@ -1,0 +1,31 @@
+*
+{
+    font-family: lobster;
+}
+
+body
+{
+    color:#503030;
+    background-color:#fb9d9d;
+}   
+
+img 
+{ 
+display: block; 
+margin: 0 auto;
+}
+
+p
+{
+    text-align: justify;
+	font-family: pink;
+}
+
+h1
+{
+    text-align: center;
+}
+a
+{
+	color: #be0216;
+}
