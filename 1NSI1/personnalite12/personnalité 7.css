@@ -44,3 +44,152 @@ h3
 
 	background-size: 100%;
 }
+#<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thomas LENNE">
+    <title>Les personnalités de l'informatique - Grace Hopper</title>
+    <link rel="stylesheet" href="personnalité 7.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        #corps {
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .btn {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        .btn-vrai {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .btn-faux {
+            background-color: #f44336;
+            color: white;
+        }
+        .btn-sais-pas {
+            background-color: #2196F3;
+            color: white;
+        }
+        .message {
+            display: none;
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .message.correct {
+            color: green;
+        }
+        .question-container {
+            margin-bottom: 30px;
+        }
+        .question-container h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="../index.html">Les personnalités de l'informatique</a></h1>
+    <div id="corps">
+        <div id="couleurcorps">
+            <h2>Grace Hopper</h2>
+            <div id="abracadabra">
+                <p><img src="personnalite 7.jpg" width="200" alt="photo d'elle" /></p>
+            </div>
+            <h3>Qui est-elle ?</h3>
+            <p style="border: 1px solid black; padding: 10px;">Grace Murray Hopper est une informaticienne américaine et contre-amiral (lower half) de la marine américaine, née le 9 décembre 1906 à New York et morte le 1er janvier 1992 dans le comté d'Arlington...</p>
+            <ul>
+                <li>Grace Brewster Murray est née le 9 décembre 1906 à New York.</li>
+                <li>Grace Brewster Murray décède le 1er janvier 1992 (à 85 ans) dans le comté d'Arlington, États-Unis.</li>
+            </ul>
+            <h3>Qu'a-t-elle fait d'important pour l'informatique ?</h3>
+            <p style="border: 1px solid black; padding: 40px;">Grace Hopper est une grande figure de l'informatique. Elle a créé le premier compilateur et a participé à la création de COBOL. Elle a également popularisé le mot "bug".</p>
+            <h3>Quelques liens importants vers des sites de documentation</h3>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=kr6WWXBxMn4">Vidéo de présentation sur Grace Hopper</a></li>
+            </ul>
+        </div>
+
+        <div class="question-container">
+            <h2>Question : A-t-elle créé le premier compilateur ?</h2>
+            <button class="btn btn-vrai" onclick="checkAnswer('vrai', 'premier compilateur')">Vrai</button>
+            <button class="btn btn-faux" onclick="checkAnswer('faux', 'premier compilateur')">Faux</button>
+            <button class="btn btn-sais-pas" onclick="checkAnswer('je sais pas', 'premier compilateur')">Je sais pas</button>
+            <div id="message1" class="message"></div>
+        </div>
+
+        <div class="question-container">
+            <h2>Question : Est-elle considérée comme une informaticienne ?</h2>
+            <button class="btn btn-vrai" onclick="checkAnswer('vrai', 'informaticienne')">Vrai</button>
+            <button class="btn btn-faux" onclick="checkAnswer('faux', 'informaticienne')">Faux</button>
+            <button class="btn btn-sais-pas" onclick="checkAnswer('je sais pas', 'informaticienne')">Je sais pas</button>
+            <div id="message2" class="message"></div>
+        </div>
+
+        <div class="question-container">
+            <h2>Question : Grace Hopper est-elle décédée en 1995 ?</h2>
+            <button class="btn btn-vrai" onclick="checkAnswer('vrai', 'decedee 1995')">Vrai</button>
+            <button class="btn btn-faux" onclick="checkAnswer('faux', 'decedee 1995')">Faux</button>
+            <button class="btn btn-sais-pas" onclick="checkAnswer('je sais pas', 'decedee 1995')">Je sais pas</button>
+            <div id="message3" class="message"></div>
+        </div>
+
+    </div>
+
+    <script>
+        function checkAnswer(answer, question) {
+            let message;
+            if (question === 'premier compilateur') {
+                message = document.getElementById("message1");
+                if (answer === 'vrai') {
+                    message.textContent = "Correct ! Grace Hopper a effectivement créé le premier compilateur.";
+                    message.className = "message correct";
+                } else if (answer === 'faux') {
+                    message.textContent = "Incorrect. Elle a bien créé le premier compilateur !";
+                    message.className = "message";
+                } else {
+                    message.textContent = "Tu ne sais pas ? Ce n'est pas grave !";
+                    message.className = "message";
+                }
+            } else if (question === 'informaticienne') {
+                message = document.getElementById("message2");
+                if (answer === 'vrai') {
+                    message.textContent = "Correct ! Grace Hopper est effectivement considérée comme une informaticienne.";
+                    message.className = "message correct";
+                } else if (answer === 'faux') {
+                    message.textContent = "Incorrect. Elle est bien considérée comme une informaticienne.";
+                    message.className = "message";
+                } else {
+                    message.textContent = "Tu ne sais pas ? Ce n'est pas grave !";
+                    message.className = "message";
+                }
+            } else if (question === 'decedee 1995') {
+                message = document.getElementById("message3");
+                if (answer === 'vrai') {
+                    message.textContent = "Incorrect. Grace Hopper est décédée en 1992.";
+                    message.className = "message";
+                } else if (answer === 'faux') {
+                    message.textContent = "Correct ! Grace Hopper est décédée en 1992, pas en 1995.";
+                    message.className = "message correct";
+                } else {
+                    message.textContent = "Tu ne sais pas ? Ce n'est pas grave !";
+                    message.className = "message";
+                }
+            }
+            message.style.display = "block";
+        }
+    </script>
+</body>
+</html
